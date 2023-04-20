@@ -1,0 +1,3 @@
+RewriteEngine On   
+RewriteRule  .* access_manager.php [QSA]
+

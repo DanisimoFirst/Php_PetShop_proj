@@ -1,0 +1,67 @@
+
+
+
+
+#Pets_Container {
+     background-color: rgba(120, 120, 120, 0.142);
+     padding-top:6%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+h1{
+     padding-left: 45%;
+     color: rgb(255, 0, 0);
+} 
+
+h2{
+     padding-left: 30%;
+     color: rgb(214, 6, 6);
+} 
+
+body {
+     display: block;
+     margin: 0px;
+     background-color:#ffffff;
+ }
+  
+ body:focus {
+     outline: none;
+ }
+ 
+ #Cat_Container{
+     margin-right: 15%;
+     margin-bottom: 0.5%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ 
+ #Dog_Container{
+     display: flex;
+     margin-right: 5%;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .hrefToCatalog a{
+     display: flex;
+     color: rgb(255, 255, 255);
+     align-items: center;
+     margin-left: 30%;
+ }
+
+ .hrefToCatalog {
+     width: 12em;
+     height: 6em;
+     background-color: hsla(0, 100%, 50%, 0.888);
+     margin-top: 7%;
+     display: flex;
+     border-radius: 53% 56% 53% 56%;
+ }
+
+
+ 

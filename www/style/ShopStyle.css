@@ -1,0 +1,223 @@
+.productPosition{
+    display: contents;
+}
+/* .view{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 18px;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+} */
+
+.product {
+
+    box-shadow: 0 0 5px 3px rgb(154, 153, 153); 
+    display: inline-block;
+    height: 500px;
+    margin: 20px;
+    padding: 5px;
+    vertical-align: top;
+    width: 300px;
+}
+
+.product .img-container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 295px;
+    margin-bottom: 10px;
+}
+.product img {
+    display: block;
+    margin: auto;
+    max-height: 270px;
+    max-width: 270px;
+}
+.product h4, h5 {
+    margin: 3px;
+    padding: 0;
+}
+.product h5 {
+    font-weight: normal;
+}
+.product b {
+    font-size: 20px;
+}
+
+.rating-area {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+    .rating-area span {
+        font-size: 28px;
+    }
+
+    .rating-area:not(:checked) > input {
+        display: none;
+    }
+
+    .rating-area:not(:checked) > label {
+        float: right;
+        width: 42px;
+        padding: 0;
+        cursor: pointer;
+        font-size: 32px;
+        line-height: 32px;
+        color: lightgrey;
+        text-shadow: 1px 1px #bbb;
+    }
+
+        .rating-area:not(:checked) > label:before {
+            content: '★';
+        }
+
+    .rating-area > input:checked ~ label {
+        color: gold;
+        text-shadow: 1px 1px #c60;
+    }
+
+    .rating-area:not(:checked) > label:hover,
+    .rating-area:not(:checked) > label:hover ~ label {
+        color: gold;
+    }
+
+    .rating-area > input:checked + label:hover,
+    .rating-area > input:checked + label:hover ~ label,
+    .rating-area > input:checked ~ label:hover,
+    .rating-area > input:checked ~ label:hover ~ label,
+    .rating-area > label:hover ~ input:checked ~ label {
+        color: gold;
+        text-shadow: 1px 1px goldenrod;
+    }
+
+.rate-area > label:active {
+    position: relative;
+}
+
+.paginator {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.paginator a, .paginator b, .paginator span {
+    margin: 0 1ex;
+}
+.paginator b {
+    font-size: 28px;
+}
+
+.Sort{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.Filters{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    align-items: flex-start;
+    align-content: space-between;
+    max-width: 100%;
+}
+
+.Search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+
+
+.Button_exec{
+    display:none;
+  }
+
+.button1 {
+    position: absolute;
+    display: block;
+    border-radius: 0px 100px 30px 0px;
+    text-transform: rotateZ(190deg);
+    width: 50px;
+    height: 145px;
+    background-color: red;
+    color: white;
+    position: relative;
+    padding: 2px 1px 7px 11px;
+    cursor: pointer;
+    left: -15px;
+  
+  }
+  .box {
+    display: none;
+    width: 500px;
+    height: 350px;
+    background-color: #ff0000;
+    color: #852c98;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 0px 100px 30px 0px
+  }
+  
+  .button1:hover .box {
+    display:block;
+    position:absolute;  
+    z-index:2;
+    top: 20px;
+    left: 20px;
+  }
+
+  .button1:hover .Button_exec {
+    display:block;
+    
+  }
+
+
+h2 {
+    transform: rotate(90deg);
+    transform-origin: top left;
+    margin-left: 37px;
+    color: #852c98;
+  }
+
+
+  .button1:hover {  
+    background-color: rgb(255, 255, 255);
+  }
+  .iks {
+    display: inline-block;
+    font-size:18px;
+    font-weight: bold;
+    transition: transform .8s ease-in-out;
+  }
+  /* .iks:hover { */
+    /* transform: rotateZ(360deg); */
+  /* } */
+  
+  .Product_Positions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    align-content: flex-end;
+    background-color: #bbb;
+  }
+
+  
+  .view{
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 0%;
+  }

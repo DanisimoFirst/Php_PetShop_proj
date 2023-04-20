@@ -1,0 +1,17 @@
+.category_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5%;
+}
+
+.catalog_photo{
+max-height: 174px;
+max-width: 157px;
+}
+
+.CatalogText{
+    color: red;
+    width: 12em;
+    height: 6em;
+}
